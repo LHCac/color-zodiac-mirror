@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星彩心鏡 Color Zodiac Mirror</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&family=Noto+Serif+TC:wght@600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bg-canvas-container">
+        <canvas id="starfield"></canvas>
+    </div>
+
+    <div id="app-container">
+        <header>
+            <button id="sound-toggle" class="icon-btn" aria-label="切換音效">
+                <span id="sound-icon">🔈</span>
+            </button>
+        </header>
+
+        <main id="game-stage">
+            <!-- Content will be injected by JavaScript -->
+        </main>
+
+        <footer id="disclaimer">
+            本測驗結合色彩與情緒聯想設計，適合自我探索與娛樂參考，不代表專業診斷。
+        </footer>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
